@@ -13,7 +13,7 @@ phases:
         commands:
             - echo "This is the build phase"
             - echo "Here we can run some tests"
-            - grep -Fq "Welcome" index.html
+            - grep -Fq "Welcome" index.html  #this camand will fail in this branch as we edited html for failing
     post_build:
         commands:
             - echo "This is the post build phase"
