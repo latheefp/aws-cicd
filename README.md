@@ -35,5 +35,7 @@ Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learn
 [lil-course-url]: https://www.linkedin.com/learning/devops-with-aws
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2886059/2886059-1626198010037-16x9.jpg
 # aws-cicd
+
+            - grep -Fq "Welcome" index.html  #this camand will fail in this branch as we edited html for faili
 # aws-cicd
 # aws-cicd
