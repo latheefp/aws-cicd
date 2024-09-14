@@ -19,7 +19,7 @@ phases:
             - echo "This is the post build phase"
             - zip -r app.zip . -x ".*" -x "*.git/*"
             - echo "Pushing app.zip to S3"
-            - aws deploy push --application-name CodeDeployDemo --s3-location s3://aws-devops-cicddemo/codedeploy-demo/app.zip --ignore-hidden-files --region us-east-1 --profile aws-devops
+            - aws deploy push --application-name CodeDeployDemo --s3-location s3://mycodebuildbucket-2024/codedeploy-demo/app.zip --ignore-hidden-files --region us-east-1 --profile aws-devops
             
 artifacts:
   files:
